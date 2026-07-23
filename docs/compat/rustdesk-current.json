@@ -1,9 +1,9 @@
 {
   "client": {
     "name": "rustdesk",
-    "version": "1.4.8",
-    "tag": "1.4.8",
-    "release_date": "2026-06-21",
+    "version": "1.4.9",
+    "tag": "1.4.9",
+    "release_date": "2026-07-06",
     "source_repo": "rustdesk/rustdesk"
   },
   "server": {
@@ -11,7 +11,7 @@
     "compat_server_version": "1.1.15",
     "status": "compatibility-layer"
   },
-  "sysinfo_version": "rustdesk-api-server-pro-compat-client-1.4.8-server-1.1.15-latest",
+  "sysinfo_version": "rustdesk-api-server-pro-compat-client-1.4.9-server-1.1.15-latest",
   "smoke_test": {
     "public": "bash scripts/compat/smoke-api.sh http://127.0.0.1:12345",
     "authenticated": "TOKEN=YOUR_TOKEN bash scripts/compat/smoke-api.sh http://127.0.0.1:12345"

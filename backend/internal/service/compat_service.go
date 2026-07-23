@@ -16,14 +16,14 @@ import (
 )
 
 const CompatClientName = "rustdesk"
-const CompatClientVersion = "1.4.8"
-const CompatClientReleaseDate = "2026-06-21"
+const CompatClientVersion = "1.4.9"
+const CompatClientReleaseDate = "2026-07-06"
 const CompatServerVersion = "1.1.15"
 const CompatTargetStatus = "compatibility-layer"
 
 // CompatSysinfoVersion is exposed to admin dashboard and compatibility probes.
 // Keep this value aligned with the validated upstream RustDesk versions.
-const CompatSysinfoVersion = "rustdesk-api-server-pro-compat-client-1.4.8-server-1.1.15-latest"
+const CompatSysinfoVersion = "rustdesk-api-server-pro-compat-client-1.4.9-server-1.1.15-latest"
 const compatRecordDir = "record_uploads"
 const maxCompatRecordSize int64 = 512 * 1024 * 1024
 
